@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assessment-Q&A-3</title>
+</head>
+<body>
+<h1>assessment-Q&A-3</h1>
+<ol>
+        <li><b>Write a code to insert an image </b></li>
+        <dl>
+            <dt><b>img tag</b></dt>
+            <dd> 
+                <img src="./flowers.jpg" alt="flowers" height="100" width="100">
+            </dd>         
+        </dl>
+        <li><b>Create a form contain input fields like name age email and contact </b></li>
+        <form action="">
+             <label for="fname"><strong>enter the first name</strong></label>
+            <input type="text" name="fname" id="fname" placeholder=" enter first name">
+            <br><br>
+            <label><strong>enter date of birth</strong> &nbsp;
+                <input type="date" name="bod" id="date of birth">
+                <br><br>
+                <label for="mail"><strong>enter your mail id </strong></label>
+        <input type="mail" name="mail id" id="mail" placeholder="email">
+        <br><br>
+        <label for="phone"><strong>enter phone number</strong></label>
+        <input type="tel" name="phone number" id="phone" placeholder="number" pattern="[0-9]{10}">
+        </form>
+        <li><b> Create a table and explain how to acheive colspan</b></li>
+        <caption>html colspan attribute</caption>
+        <table border="">
+            <tr>
+                <th colspan="2">Expences</th>
+            </tr>
+            <tr>
+                <td>arun</td>
+                <td>50$</td>
+            </tr>
+            <tr>
+                <td>vijay</td>
+                <td>20$</td>
+            </tr>
+        </table>
+        
+        <li><b>Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,JS), 2 checkboxes(Male,Female) and one submit button . When you click on that button the value should be shown in the URL</b></li><br>
+        <form action="./form-value.html">
+            <label for="fname"><strong>enter the first name</strong></label>
+            <input type="text" name="fname" id="fname" placeholder=" enter first name"><br><br>
+            <label for="password"><strong>enter password</strong></label>
+            <input type="password" name="password" id="password" placeholder=" enter password" required><br><br>
+            <label for="html"><strong>choose the course</strong></label><br><br>
+            <label><input type="radio" name="course" id="html">html</label>
+            <br>
+            <input type="radio" name="course" id="css">
+            <label for="css"> css</label>
+            <br>
+            <label><input type="radio" name="course" id="js">js</label><br>
+
+            <strong>choose the course</strong><br>
+
+            <label><input type="checkbox" name="gender" id="male" required>male</label>
+        <br>
+        <lable><input type="checkbox" name="gender" id="female"> female</lable>
+        <br><br>
+        <input type="submit" value="submit your form"> <input type="reset" value="reset your form">
+       
+        </form>
+    </ol>
+</body>
+</html>
